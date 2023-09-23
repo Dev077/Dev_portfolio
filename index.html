@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width,initial-scale=1">
+
+<head>
+    <title>Dev Chaudhari's Portofolio!</title>
+    <link rel="stylesheet" href="css/design.css" type="text/css"/>
+</head>
+
+
+<body>
+    <script src="execute.js"></script>
+    <link rel="stylesheet" href="css/design.css" type="text/css"/>
+   
+    
+    <div class="nami">
+        
+        <a class="active" href="#hero"> HERO</a>
+        <a href="#about">ABOUT</a>
+        <a href="#work">WORK</a>
+        <a href="#contact">CONTACT</a>
+
+    </div>
+
+    <div class="heroSection">
+
+        <h1 id="hero">Dev</h1>
+        
+        <p>This webpage is gonna tell a story, its upto you how you take it <br> Site under construction! Wait for it.! <br> In the mean time, here's me working on a physics problem</p>
+
+
+        <img src="image/dc.jpg" alt="That's me working on a physics problem" width="550", height="450">
+
+
+        <form >
+            <label for="question">Out of curiosity, I would like to ask you a question:If your life was a book.?<br>What would the title of the book be.?<br></label>
+            <input type="text" id="question">
+            <br>
+            <input type="submit" value='Submit'/>
+        </form>
+       
+    </div>
+
+    <div class="aboutMe">
+
+        <br><br><br><br>
+        <h1 id="about">About Me!</h1>
+
+        <h3>Hi! It's nice to meet you. I don't know who you are but I would love to talk to you.</h3>  
+
+        <p>
+            > I leave it up to you on what's your perception of me but I can tell you a little about me... <br>
+            > I love reading <a href="books.html">books</a> and if you too are a book worm, we can go on hours talking about characters,authors and how good is the cover of that book. <br>
+            > I watch football(not the american football and it's football not soccer) a lot and my favourite team is <a href="https://www.google.com/search?client=safari&rls=en&q=barca&ie=UTF-8&oe=UTF-8">Barca</a>. <br>
+            > I am a student at <a href="https://www.uwo.ca">UWO</a>. In my second year of engineering, majoring in software engineering. <br>
+            > An admirer of <a href="https://en.wikipedia.org/wiki/Nikola_Tesla">Nikola Tesla</a>, <a href="https://en.wikipedia.org/wiki/Edgar_Allan_Poe">Edgar Allan Poe</a>, <a href="https://en.wikipedia.org/wiki/Sam_Altman">Sam Altman</a> and <a href="https://en.wikipedia.org/wiki/Remedios_Varo">Remedios Varo</a>. <br>
+            > Once a <a href="https://www.google.com/search?client=safari&rls=en&q=vir+das&ie=UTF-8&oe=UTF-8">comedian</a> said "Always have music in your ears. You're the star of your own movie, please pick the soundtrack" and ever since<br>I have never looked back. <br>
+            > A big fan of anime and my favourite anime is One Piece!
+        </p>
+
+        <p>And who doesn't love <span class="clickable-word">Mr.Bean</span>(click on Mr.Bean).</p>
+        <audio id="audio-element">
+            <source src="audio/Magic.mp3" type="audio/mpeg">
+            <!-- Add additional <source> elements for different audio formats if needed -->
+            Your browser does not support the audio element.
+        </audio>
+        <script src="script.js"></script>
+            
+    </div>
+
+    <div class = "workExperience">
+        <br><br><br><br>
+        <h1 id = "work">Work and Volunteer Experience:</h1>
+
+        <ul>
+            <li>Looking for my first job but I have done some volunteer work and a few software project</li>
+            <li>Here's my <a href="pdf/Dev_Resume.pdf" target="_blank">resume</a> for your reference</li>
+            <li>Here's my <a href="https://github.com/Dev077">Github</a> and <a href="https://www.linkedin.com/in/dev-chaudhari-a79ab028b/">linkedin</a> profile</li>
+            <li>Will update when I've make progress with my work till then here's <a href="https://www.youtube.com/watch?v=RMIvlOe7VRQ">something</a> </li>
+        </ul>
+        <br><br><br><br><br>
+
+    </div>
+
+    <div class="contactMe">
+
+        <h1 id="contact">Contact Me:</h1>
+        <p>You can reach me by <a href="mailto:xyz1200@gmail.com">email</a>, <a href="https://github.com/Dev077">Github</a> or <a href="https://www.linkedin.com/in/dev-chaudhari-a79ab028b/">linkedin</a></p>
+        <p>You can find me submerged in my studies at ACEB(three c+) or you can find me playing pool in Engineering lounge at Spencer.<br>If you can't find me, then I'm at my classes</p>
+
+        <form>
+            <label for="question">If you weren't able to reach me, send me your contact information, <br>I'll reach out to you:<br></label>
+            <input type="text" id="question">
+            <br>
+            <input type="submit" value='Submit'/>
+        </form>
+
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <div class="footer">
+        <br>
+        <p>Footer:</p>
+        <p>
+        I think that brings us to the end <br>
+        That was me! And I look forward to meeting you soon! <br>
+        And just as Timon and Pumbaa says <span id="word1">Hakuna Matata</span> <br>
+        Adios! <br>
+        </p>
+        <p1><span id="word2">Monkey.D.Luffy</span></p1>
+    
+    <audio id="audio1" src="audio/Hakuna_matata.mp3"></audio>
+    <audio id="audio2" src="audio/Luffy.mp3"></audio>
+
+    <script>
+        // Get references to the audio elements
+        const audio1 = document.getElementById('audio1');
+        const audio2 = document.getElementById('audio2');
+
+        // Get references to the clickable words
+        const word1 = document.getElementById('word1');
+        const word2 = document.getElementById('word2');
+
+        // Add click event listeners to play audio
+        word1.addEventListener('click', () => {
+            audio1.play();
+        });
+
+        word2.addEventListener('click', () => {
+            audio2.play();
+        });
+    </script>
+
+    </div>
+</body>
+</html>

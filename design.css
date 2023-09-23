@@ -1,0 +1,164 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles for the entire page */
+body {
+    font-family: andale mono, monospace;
+    background: linear-gradient(to bottom, #e1b382,#12343b,#2d545e, #c89666);
+    color: #e1b382;
+    line-height: 1.6;
+}
+
+/* Navigation menu styles */
+.nami {
+    background-color: #12343b;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.nami a {
+    text-decoration: none;
+    color: #e1b382;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.heroSection {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.heroSection h1 {
+    font-size: 3em;
+    color:  #FAF9F6;
+}
+
+.heroSection p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* About Me section styles */
+.aboutMe {
+    text-align: center;
+    padding: 50px 0;
+}
+  
+
+.aboutMe h1 {
+    font-size: 2.5em;
+    color: #FAF9F6;
+}
+
+.aboutMe h3 {
+    font-size: 1.3em;
+    margin: 20px 0;
+}
+
+.aboutMe p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.aboutMe a{
+    color: #91684a;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.clickable-word {
+    color: #91684a;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Work Experience section styles */
+.workExperience {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.workExperience h1 {
+    font-size: 2.5em;
+    color: #FAF9F6;
+}
+
+.workExperience ul {
+    list-style-type: square;
+    font-size: 1.1em;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.workExperience ul li {
+    margin: 10px 0;
+}
+
+.workExperience a {
+    color: #91684a;
+}
+
+/* Contact Me section styles */
+.contactMe {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contactMe h1 {
+    font-size: 2.5em;
+    color: #FAF9F6;
+}
+
+.contactMe p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.contactMe a{
+    color: #91684a;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    background-color:  #e1b382;
+    color: #12343b;
+    font-size: 16px;
+    padding: 5px px;
+    border: none;
+    border-radius: 2px;
+  }
+  
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    background-color: #12343b;
+    color: #e1b382;
+    padding: 20px 0;
+}
+
+.footer p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Audio word styles */
+#word1 {
+    cursor: pointer;
+    color: #91684a;
+    text-decoration: underline;
+}
+
+#word2 {
+    cursor: pointer;
+    color: #12343b;
+    text-decoration: underline;
+}
